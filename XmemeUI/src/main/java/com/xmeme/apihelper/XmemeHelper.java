@@ -21,7 +21,7 @@ import com.xmeme.model.Meme;
 
 public class XmemeHelper {
 
-	private static final String BASEUSRL="http://localhost:8081/";
+	private static final String BASEUSRL="https://xmeme-4627-api.herokuapp.com/";
 	private static final String Endpoint="memes";
 
 	public static String getMemesData() throws IOException {
