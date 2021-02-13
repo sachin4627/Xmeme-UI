@@ -6,11 +6,11 @@
 	<package name="action" extends="struts-default">
 		<action name="getMemes" class="com.xmeme.Action.MemeAction"
 			method="getMemes">
-			<result name="success">index.jsp</result>
+			<result name="success">welcomePage.jsp</result>
 		</action>
 		<action name="memes" class="com.xmeme.Action.MemeAction"
 			method="postMeme">
-			<result name="success">index.jsp</result>
+			<result name="success">welcomePage.jsp</result>
 		</action>
 		
 	</package>
