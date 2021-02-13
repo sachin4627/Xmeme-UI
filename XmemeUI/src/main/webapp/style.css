@@ -15,6 +15,37 @@ body {
 	z-index: 1;
 	background-image: url('2155772.jpg');
 }
+.mo{
+	padding-right:264px;;
+}
+.ownerName{
+	position: relative;
+	line-height: 30px;
+	border-radius: 5px;	
+}
+.cap{
+	padding-right: 308px;;
+}
+.caption{
+	position: relative;
+	line-height: 30px;
+	border-radius: 5px;	
+}
+.mu{
+	padding-right: 290px;;
+}
+.memeUrl{
+	position: relative;
+	line-height: 30px;
+	border-radius: 5px;	
+}
+.btn{
+	width: 92px;
+	height: 32px;
+	border-radius: 5px;
+	background-color:  rgb(124, 141, 255);
+}
+
 .memePage:before{
 	background-size: cover;
 	background-position: center;
@@ -40,7 +71,9 @@ body {
 	text-align: center;
 	padding: 0 20px;
 }
-
+.img{
+	border-radius: 5px;
+}
 #content {
 	margin-bottom: auto;
 	padding: 10px;
