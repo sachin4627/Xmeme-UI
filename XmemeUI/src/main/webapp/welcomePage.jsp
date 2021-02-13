@@ -10,21 +10,21 @@
 	<div class="memePage">
 		<h1>Meme Stream</h1>
 		<div>
-			<form action="memes" method="post" id="memeForm"
+			<form action="postMeme" method="post" id="memeForm"
 				enctype="multipart/form-data">
 				<div>Meme Owner:</div>
 				<input type="text" name="ownerName"
-					placeholder="Enter your full name" required> <br> <br>
+					placeholder="Enter your full name" size="30" height="30" required> <br> <br>
 				<div>Caption:</div>
 				<input type="text" name="caption"
-					placeholder="Be criative with the caption" required> <br> <br>
+					placeholder="Be criative with the caption" size="30" required> <br> <br>
 				<div>Meme Url:</div>
-				<input type="url" name="memeUrl" placeholder="Enter your Url Here" required>
+				<input type="url" name="memeUrl" placeholder="Enter your Url Here" size="30" required>
 				<br> <br>
 			</form>
 			<button type="submit" form="memeForm" value="Submit">Submit</button>
 		</div>
-
+		
 		<div >
 			<%
 				List<Meme> memes = new ArrayList<Meme>();

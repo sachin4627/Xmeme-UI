@@ -8,7 +8,7 @@
 			method="getMemes">
 			<result name="success">welcomePage.jsp</result>
 		</action>
-		<action name="memes" class="com.xmeme.Action.MemeAction"
+		<action name="postMeme" class="com.xmeme.Action.MemeAction"
 			method="postMeme">
 			<result name="success">welcomePage.jsp</result>
 		</action>
